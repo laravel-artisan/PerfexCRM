@@ -33,7 +33,12 @@
                             <li>
                                 <a href="index.html" class="waves-effect"><i class="mdi mdi-view-dashboard"></i> <span> Dashboard </span> </a>
                             </li>
-
+							<li>
+                                <a href="{{url('/group')}}" class="waves-effect"><i class="mdi mdi-format-font"></i> <span> Group Management </span> </a>
+                            </li>
+							<li>
+                                <a href="{{url('/currency')}}" class="waves-effect"><i class="mdi mdi-format-font"></i> <span> Currency Management </span> </a>
+                            </li>
                             <li>
                                 <a href="typography.html" class="waves-effect"><i class="mdi mdi-format-font"></i> <span> Typography </span> </a>
                             </li>
@@ -136,6 +141,11 @@
                                     <li><a href="extras-comingsoon.html">Coming soon</a></li>
                                 </ul>
                             </li>
+							<!--for Group Management -->
+							<li class="has_sub">
+                                <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-layers"></i><span>Group Management </span> <span class="menu-arrow"></span></a>
+                            </li>
+							<!-- my code ending-->
 
                         </ul>
                         <div class="clearfix"></div>
